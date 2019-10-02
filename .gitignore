@@ -1,6 +1,9 @@
 # Specific for this repository
 pictures/
 prebuild/
+dist/
+build/
+/*.spec
 /*.txt
 
 # Byte-compiled / optimized / DLL files
