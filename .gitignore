@@ -1,6 +1,6 @@
 # Specific for this repository
-Conquerors pics/
-pre exe build/
+pictires/
+prebuild/
 /*.txt
 
 # Byte-compiled / optimized / DLL files
