@@ -1,0 +1,6 @@
+Одним файлом, без консоли - просто краш - РЕШЕНИЕ: НЕОБХОДИМО КЛАСТЬ ШРИФТЫ И КАРТИНКИ РЯДОМ С ЕХЕ-ФАЙЛОМ!!!
+C:\Users\dmitr\Documents\GitHub\Conquerors-the-game>pyinstaller --add-data west_england.ttf;. --add-data 1.png;. --add-data 2.png;. --add-data 3.png;. --add-data 4.png;. --add-data 5.png;. --add-data 6.png;. --add-data 7.png;. --add-data 8.png;. --onefile --noconsole conquerors.py
+Одним файл, с консолью, ошибка: не может найти первый внешний файл - шрифт
+C:\Users\dmitr\Documents\GitHub\Conquerors-the-game>pyinstaller --add-data west_england.ttf;. --add-data 1.png;. --add-data 2.png;. --add-data 3.png;. --add-data 4.png;. --add-data 5.png;. --add-data 6.png;. --add-data 7.png;. --add-data 8.png;. --onefile conquerors.py
+Папкой, без консоли - всё работает
+C:\Users\dmitr\Documents\GitHub\Conquerors-the-game>pyinstaller --add-data west_england.ttf;. --add-data 1.png;. --add-data 2.png;. --add-data 3.png;. --add-data 4.png;. --add-data 5.png;. --add-data 6.png;. --add-data 7.png;. --add-data 8.png;. --noconsole conquerors.py
