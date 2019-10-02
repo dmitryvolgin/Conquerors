@@ -1,7 +1,7 @@
 # Specific for this repository
-/Conquerors pics
-/pre exe build
-*.txt
+Conquerors pics/
+pre exe build/
+/*.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
