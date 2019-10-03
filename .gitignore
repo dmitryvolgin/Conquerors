@@ -1,10 +1,9 @@
 # Specific for this repository
-pictures/
-prebuild/
-dist/
 build/
+dist/
+pictures/
 /*.spec
-/*.txt
+/*.bat
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
